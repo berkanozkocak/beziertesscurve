@@ -114,12 +114,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\berka\Desktop\VsOpenGL\Dependencies\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\openglLibs\glm;D:\openglLibs\glew\include;D:\openglLibs\glfw-3.4.bin.WIN64\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\berka\Desktop\VsOpenGL\Dependencies\libs</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\berka\Desktop\VsOpenGL\Dependencies\libs;D:\openglLibs\glfw-3.4.bin.WIN64\lib-vc2022;D:\openglLibs\glew\lib\Release\x64</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;glfw3_mt.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

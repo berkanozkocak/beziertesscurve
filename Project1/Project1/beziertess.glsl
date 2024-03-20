@@ -1,4 +1,4 @@
-
+#version 400
 layout (isolines) in;
 
 uniform mat4 gWVP;
@@ -6,6 +6,8 @@ uniform mat4 gWVP;
 void main()
 {
     float t = gl_TessCoord.x;
+    
+    
 
     vec3 p0 = gl_in[0].gl_Position.xyz;
     vec3 p1 = gl_in[1].gl_Position.xyz;
@@ -23,6 +25,7 @@ void main()
 
     // Cubic Bezier interpolation
     vec3 p = p0 * b0 + p1 * b1 + p2 * b2 + p3 * b3;
+  
 
-    gl_Position = gWVP * vec4(p, 1.0);
+    gl_Position =gWVP *  vec4(p, 1.0);
 }   
