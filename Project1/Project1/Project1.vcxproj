@@ -148,8 +148,12 @@
   <ItemGroup>
     <None Include="beziertess.glsl" />
     <None Include="beziertessc.glsl" />
+    <None Include="cVertex.glsl" />
     <None Include="fragment.glsl" />
     <None Include="vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cFragment.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
