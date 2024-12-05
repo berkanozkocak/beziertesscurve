@@ -1,7 +1,7 @@
-
+#version 400
 layout (vertices = 4) out;
 
-uniform int gNumSegments;
+
 
 void main()
 {
@@ -9,5 +9,5 @@ void main()
 
     gl_TessLevelOuter[0] = 1.0;
 
-    gl_TessLevelOuter[1] = float(gNumSegments);
+    gl_TessLevelOuter[1] = 200.0;
 }

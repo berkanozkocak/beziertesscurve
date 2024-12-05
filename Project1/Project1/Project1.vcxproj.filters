@@ -32,5 +32,13 @@
     <None Include="beziertessc.glsl">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="cVertex.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cFragment.glsl">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
